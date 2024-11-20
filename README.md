@@ -37,8 +37,10 @@ For the tool to work properly, your browser or application must be configured to
 
 1. **Set SOCKS Proxy:**
 
-- Set the SOCKS proxy for your browser or application to 127.0.0.1:9050.
+- Set the SOCKS proxy for your browser or application to `127.0.0.1:9050.`
 - This ensures that all traffic is routed through the Tor network, which IP Shifter uses for IP rotation.
+
+  
 2 **Browser Proxy Settings:**
 
 - Open your browser settings.
