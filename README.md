@@ -11,12 +11,12 @@ IP Shifter is a Python-based tool that automatically rotates your IP address usi
 IP Shifter will automatically install the required dependencies (`Tor`, `pip3`, and the `requests` module) if they are not already installed on your system. Follow these steps to use the tool:
 
 ### Step 1: Clone the Repository
-1. Clone the IpShifter repository to your local machine:
+1. **Clone the IpShifter repository to your local machine:**
 
-bash
-Copy code
-git clone https://github.com/your-repository-url/ip_shifter.git
-2. Navigate into the project directory:
+```bash
+https://github.com/s-r-e-e-r-a-j/IpShifter.git
+```
+2.**Navigate into the project directory:**
 
 ```bash
 cd IpShifter
