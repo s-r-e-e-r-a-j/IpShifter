@@ -14,7 +14,7 @@ IP Shifter will automatically install the required dependencies (`Tor`, `pip3`, 
 1. **Clone the IpShifter repository to your local machine:**
 
 ```bash
-https://github.com/s-r-e-e-r-a-j/IpShifter.git
+git clone https://github.com/s-r-e-e-r-a-j/IpShifter.git
 ```
 2.**Navigate into the project directory:**
 
