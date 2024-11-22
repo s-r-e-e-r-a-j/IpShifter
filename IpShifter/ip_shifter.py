@@ -52,8 +52,7 @@ def display_banner():
              | |                                      
              |_|                                
                
-                   
-               """ + RESET)
+            """ + RESET)
     print(f"{YELLOW}* copyright of Sreeraj,2024  *")           
     print(f"{YELLOW}* GitHub: https://github.com/s-r-e-e-r-a-j  *{RESET}")
     print("\n")
