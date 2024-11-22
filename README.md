@@ -27,12 +27,17 @@ cd IpShifter
 ```bash
 cd IpShifter
 ```
-### Step 2: Run the Script
-3. Run the script with `sudo` to ensure the necessary permissions for installing dependencies:
+3. **Install The Tool**
 ```bash
-sudo python3 ip_shifter.py
+   sudo python3 install.py
+  ```
+ **Then Enter `y` to install**   
+### Step 2: Run the Tool
+3. Run the Tool with `sudo` to ensure the necessary permissions for installing dependencies:
+```bash
+sudo ipshifter
 ```
-The script will check if the required software (`Tor`, `pip3`, and `requests` Python package) is installed. If any of these dependencies are missing, the script will automatically install them for you.
+The Tool will check if the required software (`Tor`, `pip3`, and `requests` Python package) is installed. If any of these dependencies are missing, the Tool will automatically install them for you.
 
 
 If the requests module is not installed automatically then you can install it by manually 
@@ -60,7 +65,7 @@ For the tool to work properly, your browser or application must be configured to
 - **Proxy Address:** `127.0.0.1`
 - **Port:** `9050`
 ## Running the Tool
-When you run the script, it will prompt you for the following inputs:
+When you run the Tool, it will prompt you for the following inputs:
 
 - **Interval in seconds:** Enter the time interval (in seconds) between each IP change. The default is 60 seconds.
 - **Number of rotations:** Enter the number of IP rotations. Enter 0 for infinite rotations.
@@ -74,15 +79,24 @@ This will change the IP address every 120 seconds and will stop after 5 rotation
 
 ## Stopping the Tool
 To stop the tool after starting it, simply press`Ctrl+C` in the terminal. If you are running the script with infinite rotations, this will halt the execution.
+## Uninstalling the Tool
+ ```bash cd IpShifter
+```
+ ```bash cd IpShifter
+```
+```bash
+sudo python3 install.py
+```
+**Then Enter `n` to uninstall**
 
 ## How It Works
-1. **Install Dependencies:** When the script is executed, it checks whether the required dependencies (`Tor`, `pip3`, and `requests`) are installed. If they are missing, it automatically installs them.
+1. **Install Dependencies:** When the Tool is executed, it checks whether the required dependencies (`Tor`, `pip3`, and `requests`) are installed. If they are missing, it automatically installs them.
 
-2. **Start Tor:** The script will start the Tor service to begin routing your traffic through the Tor network.
+2. **Start Tor:** The Tool will start the Tor service to begin routing your traffic through the Tor network.
 
-3. **IP Rotation:** The script reloads the Tor service at the specified interval to obtain a new IP address.
+3. **IP Rotation:** The Tool reloads the Tor service at the specified interval to obtain a new IP address.
 
-4. **Fetch New IP:** The script fetches and displays your new IP address every time the Tor identity is rotated.
+4. **Fetch New IP:** The Tool fetches and displays your new IP address every time the Tor identity is rotated.
 
 ## Important Notes
 - **Tor Network:** The speed of your connection may be slower when using Tor, as it routes traffic through multiple relays for anonymity. Expect slower speeds than a normal internet connection.
@@ -91,7 +105,7 @@ To stop the tool after starting it, simply press`Ctrl+C` in the terminal. If you
 
 - **Infinite Mode:** If you set the number of rotations to `0`, the script will run indefinitely and continuously rotate your IP.
 
-- **System Permissions:** The script will require `sudo` privileges to install Tor and other dependencies. You may need to provide your password when prompted.
+- **System Permissions:** The Tool will require `sudo` privileges to install Tor and other dependencies. You may need to provide your password when prompted.
 
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
