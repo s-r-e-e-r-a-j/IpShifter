@@ -96,6 +96,11 @@ To stop the tool after starting it, simply press`Ctrl+C` in the terminal. If you
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+
 ## Disclaimer
 IP Shifter is for educational purposes only. Misuse of the tool could violate the terms of service of websites, services, or networks you access. Always use the tool responsibly and in accordance with applicable laws and regulations.
 
