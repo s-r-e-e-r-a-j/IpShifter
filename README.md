@@ -19,7 +19,7 @@ Follow these steps to use the tool:
 ```bash
 git clone https://github.com/s-r-e-e-r-a-j/IpShifter.git
 ```
-2.**Navigate into the project directory:**
+2. **Navigate into the project directory:**
 
 ```bash
 cd IpShifter
@@ -76,7 +76,7 @@ This will change the IP address every 120 seconds and will stop after 5 rotation
 To stop the tool after starting it, simply press`Ctrl+C` in the terminal. If you are running the script with infinite rotations, this will halt the execution.
 
 ## How It Works
-1.**Install Dependencies:** When the script is executed, it checks whether the required dependencies (`Tor`, `pip3`, and `requests`) are installed. If they are missing, it automatically installs them.
+1. **Install Dependencies:** When the script is executed, it checks whether the required dependencies (`Tor`, `pip3`, and `requests`) are installed. If they are missing, it automatically installs them.
 
 2. **Start Tor:** The script will start the Tor service to begin routing your traffic through the Tor network.
 
