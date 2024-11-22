@@ -10,11 +10,6 @@ IP Shifter is a Python-based tool that automatically rotates your IP address usi
 ## Installation
 IP Shifter will automatically install the required dependencies (`Tor`, `pip3`, and the `requests` module) if they are not already installed on your system.
 
-If the requests module is not installed automatically then you can install it by manually 
-
-```bash
- pip3 install requests
-  ```
 
 Follow these steps to use the tool:
 
@@ -38,6 +33,14 @@ cd IpShifter
 sudo python3 ip_shifter.py
 ```
 The script will check if the required software (`Tor`, `pip3`, and `requests` Python package) is installed. If any of these dependencies are missing, the script will automatically install them for you.
+
+
+If the requests module is not installed automatically then you can install it by manually 
+
+```bash
+ pip3 install requests
+  ```
+
 
 ## Usage
 ### Configuring the Proxy
