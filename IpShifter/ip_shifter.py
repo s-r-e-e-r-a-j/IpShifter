@@ -57,7 +57,7 @@ def display_banner():
     print(f"{YELLOW}* copyright of Sreeraj,2024  *")           
     print(f"{YELLOW}* GitHub: https://github.com/s-r-e-e-r-a-j  *{RESET}")
     print("\n")
-    print(f"{GREEN} change your sockes to 127.0.0.1:9050{RESET}")
+    print(f"{GREEN} change your SOCKES to 127.0.0.1:9050{RESET}")
     print("\n")
 # Start Tor service
 def initialize_tor():
