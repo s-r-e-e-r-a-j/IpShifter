@@ -13,7 +13,7 @@ IP Shifter will automatically install the required dependencies (`Tor`, `pip3`, 
 If the requests module is not installed automatically then you can install it by manually 
 
 ```bash
-   pip3 install requests
+ pip3 install requests
   ```
 
 Follow these steps to use the tool:
