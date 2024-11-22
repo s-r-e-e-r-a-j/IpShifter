@@ -8,7 +8,15 @@ IP Shifter is a Python-based tool that automatically rotates your IP address usi
 - **Automatic Dependency Installation:** The tool automatically installs Tor, Python packages, and other required software if they are missing.
 - **Simple Setup:** The tool is easy to use and requires minimal configuration.
 ## Installation
-IP Shifter will automatically install the required dependencies (`Tor`, `pip3`, and the `requests` module) if they are not already installed on your system. Follow these steps to use the tool:
+IP Shifter will automatically install the required dependencies (`Tor`, `pip3`, and the `requests` module) if they are not already installed on your system.
+
+If the requests module is not installed automatically then you can install it by manually 
+
+```bash
+   pip3 install requests
+  ```
+
+Follow these steps to use the tool:
 
 ### Step 1: Clone the Repository
 1. **Clone the IpShifter repository to your local machine:**
