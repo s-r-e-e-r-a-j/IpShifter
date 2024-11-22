@@ -110,9 +110,6 @@ To stop the tool after starting it, simply press`Ctrl+C` in the terminal. If you
 
 - **System Permissions:** The Tool will require `sudo` privileges to install Tor and other dependencies. You may need to provide your password when prompted.
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
