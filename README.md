@@ -81,9 +81,9 @@ This will change the IP address every 120 seconds and will stop after 5 rotation
 To stop the tool after starting it, simply press`Ctrl+C` in the terminal. If you are running the script with infinite rotations, this will halt the execution.
 ## Uninstalling the Tool
  ```bash cd IpShifter
-```
+    ```
  ```bash cd IpShifter
-```
+      ```
 ```bash
 sudo python3 install.py
 ```
