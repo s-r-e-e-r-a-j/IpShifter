@@ -29,7 +29,7 @@ cd IpShifter
 ```
 3. **Install The Tool**
 ```bash
-   sudo python3 install.py
+sudo python3 install.py
   ```
  **Then Enter `y` to install**   
 ### Step 2: Run the Tool
@@ -82,13 +82,13 @@ To stop the tool after starting it, simply press`Ctrl+C` in the terminal. If you
 ## Uninstallation
 
  ```bash
-    cd IpShifter
+cd IpShifter
 ```
 ```bash
-   cd IpShifter
+cd IpShifter
 ```
  ```bash
-     sudo python3 install.py
+ sudo python3 install.py
  ```
 **Then Enter `n` to uninstall**
 
