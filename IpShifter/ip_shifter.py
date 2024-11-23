@@ -66,7 +66,7 @@ def initialize_tor():
 # Change IP using Tor
 def rotate_identity():
     os.system("service tor reload")
-    print(f"{YELLOW}[~] Tor identity changed.{RESET}")
+    print(f"{YELLOW}[~] Identity changed.{RESET}")
 
 # Fetch external IP
 def fetch_ip():
