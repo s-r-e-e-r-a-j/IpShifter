@@ -87,7 +87,7 @@ def execute_rotation():
 
     try:
         interval = int(input(f"{YELLOW}[+] Enter interval (seconds) between IP changes [default: 60]: {RESET}") or 60)
-        cycles = int(input(f"{YELLOW}[+] Enter number of IP rotations (0 for infinite): {RESET}") or 0)
+        cycles = int(input(f"{YELLOW}[+] Enter number of IP changes (0 for infinite): {RESET}") or 0)
 
         if cycles == 0:
             print(f"{GREEN}[+] Infinite mode activated. Press Ctrl+C to stop.{RESET}")
