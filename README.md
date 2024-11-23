@@ -31,7 +31,7 @@ cd IpShifter
 ```bash
 sudo python3 install.py
   ```
- **Then Enter `y` to install**   
+ **Then Enter `y` for install**   
 ### Step 2: Run the Tool
 3. Run the Tool with `sudo` to ensure the necessary permissions for installing dependencies:
 ```bash
@@ -90,7 +90,7 @@ cd IpShifter
  ```bash
  sudo python3 install.py
  ```
-**Then Enter `n` to uninstall**
+**Then Enter `n` for uninstall**
 
 ## How It Works
 1. **Install Dependencies:** When the Tool is executed, it checks whether the required dependencies (`Tor`, `pip3`, and `requests`) are installed. If they are missing, it automatically installs them.
