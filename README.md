@@ -2,9 +2,9 @@
 IP Shifter is a Python-based tool that automatically rotates your IP address using the Tor network. By leveraging Tor's anonymity features, it allows you to change your IP at specified intervals, providing enhanced privacy and security while browsing.
 
 ## Features
-- **Automated IP Rotation:** Change your IP address at a specified time interval.
+- **Automated IP Change:** Change your IP address at a specified time interval.
 - **Tor Network Integration:** Uses the Tor network for IP rotation, ensuring anonymity.
-- **Infinite or Fixed Rotations:** Rotate your IP either infinitely or for a fixed number of times.
+- **Infinite or Fixed Ip Address Change:** Changing your IP either infinitely or for a fixed number of times.
 - **Automatic Dependency Installation:** The tool automatically installs Tor, Python packages, and other required software if they are missing.
 - **Simple Setup:** The tool is easy to use and requires minimal configuration.
 ## Installation
@@ -54,7 +54,7 @@ For the tool to work properly, your browser or application must be configured to
 1. **Set SOCKS Proxy:**
 
 - Set the SOCKS proxy for your browser or application to `127.0.0.1:9050.`
-- This ensures that all traffic is routed through the Tor network, which IP Shifter uses for IP rotation.
+- This ensures that all traffic is routed through the Tor network, which IP Shifter uses for IP Changing.
 
   
 2 **Browser Proxy Settings:**
@@ -75,7 +75,7 @@ Example:
 [+] Enter interval (seconds) between IP changes [default: 60]: 120
 [+] Enter number of IP change (0 for infinite): 5
 ```
-This will change the IP address every 120 seconds and will stop after 5 rotations. If you enter`0`for infinite rotations, the tool will continue running indefinitely.
+This will change the IP address every 120 seconds and will stop after 5 IP Address Change. If you enter`0`for infinite IP Address Change, the tool will continue running indefinitely.
 
 ## Stopping the Tool
 To stop the tool after starting it, simply press`Ctrl+C` in the terminal. If you are running the script with infinite rotations, this will halt the execution.
@@ -97,7 +97,7 @@ cd IpShifter
 
 2. **Start Tor:** The Tool will start the Tor service to begin routing your traffic through the Tor network.
 
-3. **IP Rotation:** The Tool reloads the Tor service at the specified interval to obtain a new IP address.
+3. **IP Address Changing:** The Tool reloads the Tor service at the specified interval to obtain a new IP address.
 
 4. **Fetch New IP:** The Tool fetches and displays your new IP address every time the Tor identity is rotated.
 
@@ -106,7 +106,7 @@ cd IpShifter
 
 - **Browser Proxy:** Make sure that your browser or application is configured to use `127.0.0.1:9050` as the SOCKS proxy so that the traffic is routed through the Tor network.
 
-- **Infinite Mode:** If you set the number of rotations to `0`, the script will run indefinitely and continuously rotate your IP.
+- **Infinite Mode:** If you set the number of Ip Change to `0`, the Tool will run indefinitely and continuously Change your IP.
 
 - **System Permissions:** The Tool will require `sudo` privileges to install Tor and other dependencies. You may need to provide your password when prompted.
 
