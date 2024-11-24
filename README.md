@@ -3,7 +3,7 @@ IP Shifter is a Python-based tool that automatically rotates your IP address usi
 
 ## Features
 - **Automated IP Change:** Change your IP address at a specified time interval.
-- **Tor Network Integration:** Uses the Tor network for IP rotation, ensuring anonymity.
+- **Tor Network Integration:** Uses the Tor network for IP Address Change, ensuring anonymity.
 - **Infinite or Fixed Ip Address Change:** Changing your IP either infinitely or for a fixed number of times.
 - **Automatic Dependency Installation:** The tool automatically installs Tor, Python packages, and other required software if they are missing.
 - **Simple Setup:** The tool is easy to use and requires minimal configuration.
