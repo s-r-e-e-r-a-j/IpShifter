@@ -78,7 +78,7 @@ Example:
 This will change the IP address every 120 seconds and will stop after 5 IP Address Change. If you enter`0`for infinite IP Address Change, the tool will continue running indefinitely.
 
 ## Stopping the Tool
-To stop the tool after starting it, simply press`Ctrl+C` in the terminal. If you are running the script with infinite rotations, this will halt the execution.
+To stop the tool after starting it, simply press`Ctrl+C` in the terminal. If you are running the Tool with infinite IP Address Change, this will halt the execution.
 ## Uninstallation
 
  ```bash
