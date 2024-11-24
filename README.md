@@ -78,7 +78,7 @@ Example:
 This will change the IP address every 120 seconds and will stop after 5 IP Address Change. If you enter`0`for infinite IP Address Change, the tool will continue running indefinitely.
 
 ## Stopping the Tool
-To stop the tool after starting it, simply press`Ctrl+C` in the terminal. If you are running the Tool with infinite IP Address Change, this will halt the execution.
+To stop the tool after starting it, simply press`Ctrl+C` in the terminal. If you are running  for infinite IP Address Change, this will halt the execution.
 ## Uninstallation
 
  ```bash
@@ -99,7 +99,7 @@ cd IpShifter
 
 3. **IP Address Changing:** The Tool reloads the Tor service at the specified interval to obtain a new IP address.
 
-4. **Fetch New IP:** The Tool fetches and displays your new IP address every time the Tor identity is rotated.
+4. **Fetch New IP:** The Tool fetches and displays your new IP address every time the Tor identity is changed.
 
 ## Important Notes
 - **Tor Network:** The speed of your connection may be slower when using Tor, as it routes traffic through multiple relays for anonymity. Expect slower speeds than a normal internet connection.
