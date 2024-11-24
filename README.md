@@ -68,12 +68,12 @@ For the tool to work properly, your browser or application must be configured to
 When you run the Tool, it will prompt you for the following inputs:
 
 - **Interval in seconds:** Enter the time interval (in seconds) between each IP change. The default is 60 seconds.
-- **Number of rotations:** Enter the number of IP rotations. Enter 0 for infinite rotations.
+- **Number of Ip Address Change:** Enter the number of IP change. Enter 0 for infinite change.
 Example:
 
 ```bash
 [+] Enter interval (seconds) between IP changes [default: 60]: 120
-[+] Enter number of IP rotations (0 for infinite): 5
+[+] Enter number of IP change (0 for infinite): 5
 ```
 This will change the IP address every 120 seconds and will stop after 5 rotations. If you enter`0`for infinite rotations, the tool will continue running indefinitely.
 
