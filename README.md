@@ -1,5 +1,5 @@
 ## IP Shifter
-IP Shifter is a Python-based tool that automatically changes your IP address using the Tor network. By leveraging Tor's anonymity features, it allows you to change your IP at specified intervals, providing enhanced privacy and security while browsing.
+IP Shifter is a Python-based tool that automatically changes your IP address and location using the Tor network. By leveraging Tor's anonymity features, it allows you to change your IP at specified intervals, providing enhanced privacy and security while browsing.
 
 ## Features
 - **Automated IP Change:** Change your IP address at a specified time interval.
