@@ -1,5 +1,5 @@
 ## IP Shifter
-IP Shifter is an ethical hacking tool written in Python. It uses the Tor network to automatically change your IP address and location. This tool makes you anonymous by changing your IP at set times, giving you more privacy and security while browsing.
+IP Shifter is an ethical hacking tool written in Python. It uses the Tor network to automatically change your IP address. This tool makes you anonymous by changing your IP at set times, giving you more privacy and security while browsing.
 
 ## Features
 - **Automated IP Change:** Change your IP address at a specified time interval.
