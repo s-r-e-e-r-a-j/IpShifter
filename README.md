@@ -64,6 +64,15 @@ For the tool to work properly, your browser or application must be configured to
 - Change the SOCKS proxy to:
 - **Proxy Address:** `127.0.0.1`
 - **Port:** `9050`
+
+  ### Example Configuration:
+- **Firefox:**
+
+1. Go to `Settings > Network Settings > Manual Proxy Configuration`.
+2. Set **SOCKS Host** to `127.0.0.1 `and **Port** to `9050`.
+3. Select SOCKS v5.
+4. Save the settings.
+   
 ## Running the Tool
 When you run the Tool, it will prompt you for the following inputs:
 
