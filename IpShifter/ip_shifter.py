@@ -11,6 +11,11 @@ GREEN = "\033[92m"
 YELLOW = "\033[93m"
 RED = "\033[91m"
 
+# check if the user run as root or with sudo
+def check_sudo():
+    if os.geteuid()!= 0:
+        print(f"{YELLOW}Please run this script as root or with sudo.{RESET}")
+        sys.exit(1)
 # Check and install dependencies
 def install_dependencies():
     # Check and install Tor if not installed
@@ -107,10 +112,6 @@ def execute_rotation():
         print(f"{RED}[!] Invalid input. Please provide a valid number.{RESET}")
 
 if __name__ == "__main__":
-    #check if the user run as root or with sudo
-    if os.geteuid() != 0: 
-       print(f"{YELLOW}Please run this tool as root or with sudo.{RESET}")
-       sys.exit(1)
-        
+    check_sudo()
     install_dependencies()  # Automatically installs dependencies
     execute_rotation()
