@@ -107,10 +107,10 @@ def execute_rotation():
         print(f"{RED}[!] Invalid input. Please provide a valid number.{RESET}")
 
 if __name__ == "__main__":
-    
     #check if the user run as root or with sudo
     if os.geteuid() != 0: 
        print(f"{YELLOW}Please run this tool as root or with sudo.{RESET}")
        sys.exit(1)
+        
     install_dependencies()  # Automatically installs dependencies
     execute_rotation()
