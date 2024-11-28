@@ -14,7 +14,7 @@ RED = "\033[91m"
 #check if the user run as root or sudo
 
 if os.geteuid() != 0: 
-    print(f"{YELLOW}Please run this script as root or with sudo.{RESET}")
+    print(f"{YELLOW}Please run this tool as root or with sudo.{RESET}")
     sys.exit(1)
 
 
