@@ -11,7 +11,7 @@ GREEN = "\033[92m"
 YELLOW = "\033[93m"
 RED = "\033[91m"
 
-#check if the user  run as root or sudo
+#check if the user run as root or sudo
 
 if os.geteuid() != 0: 
     print(f"{YELLOW}Please run this script as root or with sudo.{RESET}")
