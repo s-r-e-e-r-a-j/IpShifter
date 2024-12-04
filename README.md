@@ -19,21 +19,22 @@ Follow these steps to use the tool:
 ```bash
 git clone https://github.com/s-r-e-e-r-a-j/IpShifter.git
 ```
-2. **Navigate into the project directory:**
+2. **Navigate to the IpShifter directory:**
 
 ```bash
 cd IpShifter
 ```
+3. **Navigate to the IpShifter directory**
 ```bash
 cd IpShifter
 ```
-3. **Install The Tool**
+4. **Install The Tool**
 ```bash
 sudo python3 install.py
   ```
  **Then Enter `y` for install**   
 ### Step 2: Run the Tool
-3. Run the Tool with `sudo` to ensure the necessary permissions for installing dependencies:
+5. Run the Tool with `sudo` to ensure the necessary permissions for installing dependencies:
 ```bash
 sudo ipshifter
 ```
