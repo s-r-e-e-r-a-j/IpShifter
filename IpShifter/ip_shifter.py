@@ -59,7 +59,7 @@ def display_banner():
              |_|                                
                
             """ + RESET)
-    print(f"{YELLOW}* copyright of Sreeraj,2024  *")           
+    print(f"{YELLOW}* Copyright © Sreeraj, 2024  *")           
     print(f"{YELLOW}* GitHub: https://github.com/s-r-e-e-r-a-j  *{RESET}")
     print("\n")
     print(f"{GREEN} change your SOCKS to 127.0.0.1:9050{RESET}")
