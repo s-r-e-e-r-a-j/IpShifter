@@ -56,7 +56,7 @@ def display_banner():
         _| |_| |_) |  ____) | | | | | | | ||  __/ |   
        |_____| .__/  |_____/|_| |_|_|_|  \__\___|_|   
              | |                                      
-             |_|                  Developer: Sreeraj        
+             |_|                 Developer: Sreeraj        
 
             """ + RESET)
     print(f"{YELLOW}* Copyright © Sreeraj, 2024 ")           
